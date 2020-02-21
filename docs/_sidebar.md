@@ -1,0 +1,3 @@
+- [Symfony 5 through example](README.md)
+- [Getting started](getting-started/index.md)
+    - [Installation](getting-started/installation.md)

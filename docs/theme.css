@@ -1,0 +1,9 @@
+:root {
+    --theme-color: #ff8e35;
+
+    --base-font-size: 16px;
+    --base-font-family : "Quicksand", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --base-line-height     : 1.7;
+    --emoji-size           : calc(var(--base-line-height) * .7em);
+    --link-color--hover: #ff8e35;
+}
