@@ -5,12 +5,14 @@ SYMFONY  = symfony
 COMPOSER = composer
 DOCSIFY  = docsify
 YARN     = yarn
+NPM      = npm
 GIT      = git
 
 ##
 ## —— Project ——
 
 setup: .env.local install assets ## Install and starts the project
+	$(NPM) install -g docsify-cli
 
 run: ## Run embeded web server
 	$(SYMFONY) server:start
